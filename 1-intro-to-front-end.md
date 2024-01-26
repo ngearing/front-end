@@ -66,11 +66,11 @@ UDP is used to send data that can tolerate data lost like video or voice calls.
 
 # HTTP
 
-Hypertext Transfer Protocol. It's how we communicate with a webserver. A Request-respsonse protocol.
+Hypertext Transfer Protocol. It's how we communicate with a web server. A Request-response protocol.
 
 A HTTP request consists of a method, path, version and headers.
 Method is GET, POST, PUT, DELETE.
-Path is the where the resouce is stored on the web server.
+Path is the where the resource is stored on the web server.
 Version is HTTP/1.1 or HTTP/2.
 Headers contain information about the request and the client making the request.
 
@@ -87,3 +87,31 @@ There 5 types of status codes:
 ## HTTPS
 
 Operations the same http only before request is sent the data gets turned into a secret code. only the other computer can turn it back.
+
+# Intro to HTML, CSS, Javascript
+
+Webpages are made of html, css, js.
+
+HTML is the structure.
+CSS is the style.
+JS is interactive elements.
+
+Js can make a page interactive by adding listeners
+
+# Other Internet Protocols
+
+Dynamic Host Configuration PRotocol (DHCP) - When your computer connects to a network the DHCP assigns your computer an IP.
+
+Domain Name System Protocol (DNS) - Your computer check the DNS server to find the IP address of the computer that is associated with a domain name.
+
+Internet Message Access Protocol (IMAP) - Is used to check emails and manage your mailbox.
+
+Simple Mail Transfer Protocol (SMTP) - This allows your client to send emails via an SMTP server.
+
+Post Office Protocol (POP) - Older protocol used to download emails, deleting email off the server once downloaded.
+
+File Transfer Protocol (FTP) - Allows you to send and receive files for a server.
+
+Secure Shell Protocol (SSH) - A way to log in to interact with a server.
+
+SSH File Transfer Protocol (SFTP) - Send file securely over the SSH protocol.
