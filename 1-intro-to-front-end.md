@@ -24,4 +24,31 @@ A server runs applications and services. Stored in a data center. THey are all a
 
 A web server has many functions like storage, admin, data, security and email. It's primary function is to respond to web requests from the client.
 
-## What websites/pages.
+## What is a websites/pages.
+
+Webpage is document that display images and text.
+A website is a collection of webpages.
+
+## What is a web browser
+
+An application on your computer that connects to a server via http to get some data and display it.
+
+## Web hosting
+
+A web host is a place where you put your website.
+
+### Shared hosting
+
+a server shared among other websites.
+
+### VPS hosting
+
+a virtual private server
+
+### dedicated server
+
+a hardware server dedicated just for you.
+
+### Cloud hosting
+
+Uses a combination of physical and virtual server.
