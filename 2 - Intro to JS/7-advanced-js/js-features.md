@@ -86,3 +86,51 @@ for (prop of Object.keys(fastCar)) {
     speed: fast
 */
 ```
+
+## Spread
+
+ES6 feature. Allows to extract values from arrays or strings into separate variables, or to merge multiple arrays into one.
+
+**Spread array as arguments**
+`someFuncWithMultipleParameters(...arrayToSpread);`
+
+**Combine arrays**
+`let combinedArray = [...arr1, ...arr2];`
+
+**Copy an array**
+`let fruits1 = ['apples', 'pears'];`
+`let fruits2 = [...fruits1];`
+
+**Merge objects**
+`let mergedObject = {...obj1, ...obj2};`
+
+**Create a shallow copy of an object**
+`let copiedObj = {...originalObj};`
+
+## Rest
+
+The rest parameter allows you to collect all the remaining parameters into an array. It is useful when you don’t know how many arguments are going to be passed to your function.
+
+Often combined with destructuring to get all the remaining properties into one variable.
+
+Example:
+
+```js
+function myFunction({ a, b, ...remaining }) {
+	// do something with `a`, `b` and `remaining`
+}
+
+myFunction({ a: 1, b: 2, c: 3, d: 4 });
+
+const [first, second, third, ...rest] = arrayOfItems;
+```
+
+You can also use Rest in functions to accept any number of parameters (including zero).
+
+```js
+function addTaxToPrice(taxRate, ...itemsBought) {
+	return itemsBought.map((item) => taxRate * item);
+}
+```
+
+Rest parameter must the last parameter in the function.
