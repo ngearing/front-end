@@ -57,3 +57,32 @@ for (var prop of Object.keys(person)) {
 // Output : name: John
 //          age: 30
 ```
+
+### For in vs For of
+
+- for ...in loop iterates over properties of an object AND it's prototype
+- for ...of loop iterates only over the objects properties.
+
+Example:
+
+```js
+const car = { engine: 4 };
+
+const fastCar = Object.create(car);
+fastCar.speed = "fast";
+
+for (prop in fastCar) {
+	console.log(prop + ": " + fastCar[prop]);
+}
+/* This will output:
+   engine: 4
+   speed: fast
+*/
+
+for (prop of Object.keys(fastCar)) {
+	console.log(prop + ": " + fastCar[prop]);
+}
+/* This will output:
+    speed: fast
+*/
+```
