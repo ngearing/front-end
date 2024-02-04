@@ -17,3 +17,19 @@ for (prop of Object.keys(fastCar)) {
 /* This will output:
     speed: fast
 */
+
+// Map
+const map = new Map();
+map.set(1, "One");
+map.set(2, "Two");
+map.set(3, "Three");
+map.set(4, "Four");
+
+map.values();
+map.keys();
+
+console.log(map);
+
+// Set
+const set = new Set([1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 4, 5, 6, 7]);
+console.log(set);
