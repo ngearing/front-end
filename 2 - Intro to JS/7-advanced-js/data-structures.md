@@ -17,3 +17,7 @@ Objects are unaltered, non-iterable collection of key value pairs. You use objec
 **Map**
 Map is like an Array because it is iterable. However, unlike arrays, the Map object holds key-value pairs. With maps any value can be used as a key. With objects, keys can only be strings or symbols.
 `const map = new Map();`
+
+**Set**
+Set is a collection of unique values. If you try to add a non-unique value to a Set the operation will not run. No Errors.
+`const set = new Set();`
