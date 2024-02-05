@@ -1,23 +1,25 @@
 {
-  "name": "meta-frontend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ngearing/front-end.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ngearing/front-end/issues"
-  },
-  "homepage": "https://github.com/ngearing/front-end#readme",
-  "dependencies": {
-    "typescript": "^5.3.3"
-  }
+	"name": "meta-frontend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ngearing/front-end.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ngearing/front-end/issues"
+	},
+	"homepage": "https://github.com/ngearing/front-end#readme",
+	"dependencies": {
+		"jest": "^29.7.0",
+		"typescript": "^5.3.3"
+	}
 }
+
