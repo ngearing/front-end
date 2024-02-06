@@ -73,3 +73,20 @@ test("returns the number plus 5", () => {
 	expect(addFive(1)).toBe(6);
 });
 ```
+
+# TDD
+
+1. Get requirements or feature
+2. Write a failing test
+3. Write code to pass the test
+4. Refactor if necessary
+
+```js
+//1. write test first, does the function exist
+test("returns true if statusOfKeys exists", function () {
+	expect(statusOfKeys).toExist();
+});
+
+//2. make it work
+function statusOfKeys() {}
+```
