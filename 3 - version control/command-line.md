@@ -2,6 +2,8 @@
 
 ## Unix commands
 
+[Bash cheatsheet](https://devhints.io/bash)
+
 - `man` - manual pages. Type `man command_name` to get information about a specific command. For example, type `man ls` for more details on the `ls` command.
 - `ls` - list files in a directory.
 - `cd` - change the current working directory.
@@ -34,3 +36,35 @@ changes permissions to make file executable: `chmod +x myscript.sh`.
 Now you can run it with `./myscript.sh`.
 
 ## Pipes
+
+Commands can be chained together using pipes (`|`), which allows the output of one command to become the input of another command.
+
+Example:
+
+```bash
+cat file1.txt | wc -w
+```
+
+## Redirection
+
+- Standard input: `<`
+- Standard output: `>` / `|&`
+- Error: `2>` / `2>&1`
+
+Example:
+
+```bash
+bash> echo "Hello World!" > out.txt
+bash> cat < out.txt
+Hello World!
+
+bash> ls non_existent_file &>/dev/null
+```
+
+## Grep
+
+[Grep cheatsheet](https://devhints.io/grep)
+
+Global regular expression print.
+
+`grep sam names.txt`
