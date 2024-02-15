@@ -36,7 +36,7 @@ Headings on the web page. `<h1>` indicates the most important heading whereas `<
 
 ### Content tags
 
-<`blockquote>`
+`<blockquote>`
 Used to describe a quotation.
 
 `<dd>`
@@ -77,7 +77,7 @@ Unordered list
 
 ### Inline tags
 
-<`a>`
+`<a>`
 An anchor link to another HTML document.
 
 `<abbr>`
@@ -142,7 +142,7 @@ The containing text is a variable in a mathematical expression.
 
 ### Embedded content and media tags
 
-<`audio>`
+`<audio>`
 Used to embed audio in web pages.
 
 `<canvas>`
@@ -174,7 +174,7 @@ Used to define Scalable Vector Graphics within a web page.
 
 ### Table tags
 
-<`table>`
+`<table>`
 Defines a table element to display table data within a web page.
 
 `<thead>`
@@ -203,3 +203,7 @@ Defines a semantic group of one or more columns in a table for formatting.
 
 `<col>`
 Defines a semantic column in a table.
+
+## Metadata
+
+HTML <meta> tags - meta tags convey information about the document to search engines.
