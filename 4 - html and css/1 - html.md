@@ -207,3 +207,17 @@ Defines a semantic column in a table.
 ## Metadata
 
 HTML <meta> tags - meta tags convey information about the document to search engines.
+
+## Open Graph Protocol
+
+Open Graph Protocol is what social media networks use to display your website's content on their sites, such as Facebook and Twitter. The protocol allows you to define what gets shared with them.
+
+There are 4 main tags to use with open graph:
+
+- `<meta property="og:type" content="website">`
+- `<meta property="og:url" content="http://www.example.com/"/>`
+- `<meta property="og:title" content="The Rock"/>`
+- `<meta property="og:image" content="http//www.example.com/image.png"/>`
+- `<meta property="og:description" content="Face it, The Rock is the best."/>`
+
+## Social media card
