@@ -21,7 +21,7 @@ There are various types of form inputs that can be used like:
 - Email Input - validates if an email address is in a correct format.
 - Tel Input - validates if a telephone number is in the right format.
 - Url Input - checks whether or not a URL is formatted correctly.
-- Date Input - ensures that a given date falls within a specific range (e.g., between January 1, 2003, and December 31, 2004.
+- Date Input - ensures that a given date falls within a specific range (e.g., between January 1, 2003, and December 31, 2004).
 - Time Input - ensures that time values fall within a specific range (e.g., between 00:00 and 23:59).
 - Number Input - restricts what characters users may enter into a field, allowing only numbers.
 - Range Input - makes sure that the value entered falls within a specified numeric range.
