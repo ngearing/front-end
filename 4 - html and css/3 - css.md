@@ -32,3 +32,11 @@
 - Classes and attributes selectors: third highest specificity - 10
 - Element selectors: fourth highest specificity - 1
 - Pseudo-classes and pseudo-elements: fifth highest specificity - 0
+
+## Selectors
+
+[Cheat sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/)
+
+## Effects
+
+[Freefrontend](https://freefrontend.com/)
